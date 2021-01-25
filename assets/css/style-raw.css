@@ -119,6 +119,27 @@ header {
     text-align: center;
 }
 
+/* Whast Fixed */
+a.whatsFixed {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    width: auto;
+    height: 40px;
+    background: #008583;
+    border-radius: 20px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s all ease-out;
+    z-index: 9999;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
     width: 100%;
