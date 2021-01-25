@@ -1,0 +1,81 @@
+/* Estilo para Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+} 
+/* FINAL ESTILO TABLET */
+
+
+/* Estilo para Mobile */
+@media only screen and (max-width: 787px) {
+    /* Gerais */
+    .btn-cadastro {
+        width: 220px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    /* Header */
+    .logo-nt {
+        margin: 0 auto;
+    }
+    
+    .encontre-imovel {
+        display: none;
+    }
+
+    /* Intro */
+    .intro .txt-box {
+        margin-top: 0;
+    }
+
+    .intro h1 {
+        font-size: 48px;
+    }
+
+    .intro p {
+        font-size: 22px;
+    }
+
+    .box-form {
+        background: #ffffff;
+        width: 300px;
+        height: 424px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+    
+    .box-form h2 {
+        font-size: 22px;
+        font-weight: normal;
+        color: #008583;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    
+    .box-form form input {
+        display: block;
+        width: 220px;
+        height: 40px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .box-form form button {
+        margin-left: 40px;
+    }
+
+    /* Fotos imóveis */
+    .banner {
+        max-width: 300px;
+        height: 180px;
+    }
+
+    /* Footer */
+    footer {
+        height: 100%;
+    }
+
+    .btn-footer {
+        margin: 30px 0 80px 0;
+        margin-left: 40px;
+    }
+}
