@@ -1,5 +1,48 @@
 /* Estilo para Tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Gerais */
+    .btn-cadastro {
+        width: 280px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    /* Intro */
+    .box-form {
+        background: #ffffff;
+        width: 364px;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+
+    .box-form h2 {
+        font-size: 22px;
+        font-weight: normal;
+        color: #008583;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    
+    .box-form form input {
+        display: block;
+        width: 280px;
+        height: 40px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .box-form form button {
+        margin-left: 40px;
+    }
+
+    /* Fotos imóveis */
+    .banner {
+        max-width: 748px;
+    }
+
+    .btn-footer {
+        margin-left: 234px;
+    }
 
 } 
 /* FINAL ESTILO TABLET */
@@ -39,7 +82,7 @@
     .box-form {
         background: #ffffff;
         width: 300px;
-        height: 424px;
+        height: 400px;
         border-radius: 20px;
         margin-top: 50px;
     }
