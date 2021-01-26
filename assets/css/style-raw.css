@@ -39,22 +39,19 @@ header {
 }
 
 .encontre-imovel {
-    width: 240px;
-    height: 49px;
-    border-radius: 15px;
-    margin-top: 25px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
     border: 1px solid #ffffff;
-    list-style: none;
-    display: flex;
-    align-items: center;
+    border-radius: 10px;
+    height: min-content;
+    padding: 10px;
+    margin-top: 29px;
+    transition: 0.3s;
 }
 
-.encontre-imovel a {
-    margin: 0 auto;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: none;
+.encontre-imovel:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /* Introdução */
@@ -137,6 +134,10 @@ a.whatsFixed {
     z-index: 9999;
     padding: 0 15px;
     text-decoration: none;
+}
+
+a.whatsFixed:hover {
+    background: #006a69;
 }
 
 /* Footer */
