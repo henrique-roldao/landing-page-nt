@@ -49,7 +49,7 @@
                     <h2>Cadastre-se e tire suas dúvidas com nossos corretores.</h2>
                     <form action="">
                         <input type="text" name="name" id="name" placeholder="Nome">
-                        <input type="number" name="phone" id="phone" placeholder="Número Celular">
+                        <input type="text" id="phone" name="phone" placeholder="Seu número aqui" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" />
                         <input type="email" name="email" id="email" placeholder="Digite seu melhor email">
                         <button class="btn-cadastro" type="submit">Cadastrar</button>
                     </form>
@@ -158,8 +158,8 @@
 
 
 
-    <script src="./assets/js/simple-anime.js"></script>
-    <script src="./assets/js/simple-form.js"></script>
+
     <script src="./assets/js/simple-slide.js"></script>
+    <script src="./assets/js/jquery.mask.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
