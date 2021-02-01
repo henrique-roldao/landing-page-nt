@@ -4,6 +4,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .btn-cadastro {
     width: 380px;
     height: 60px;
@@ -71,7 +75,7 @@ header {
 .intro {
     width: 100%;
     height: 694px;
-    background-image: url(../img/img-filtro.jpg);
+    background-image: url(../img/bg-teste.jpg);
 }
 
 .intro h1 {
@@ -156,7 +160,7 @@ a.whatsFixed:hover {
 /* Footer */
 footer {
     width: 100%;
-    height: 474px;
+    height: 600px;
     background: #F3F3F3;
 }
 
@@ -179,10 +183,19 @@ footer {
     color: #008583;
 }
 
+.lista-footer ul li {
+    color: #292929;
+    line-height: 30px;
+}
+
+.lista-footer ul li i {
+    color: #008583;
+}
+
 .paragraph-footer {
     font-size: 16px;
     font-weight: normal;
-    color: black;
+    color: #292929;
 }
 
 .btn-footer {
@@ -218,28 +231,4 @@ footer {
 
 .js [data-slide-nav] button.active {
     background: #008583;
-}
-
-.js [data-anime] {
-    opacity: 0;
-}
-
-/* 7 CSS personalizado dependendo da animação desejada */
-.js .fadeInDown {
-    transform: translate3d(0,-20px,0);
-}
-.js .fadeInUp {
-    transform: translate3d(0,20px,0);
-}
-.js .fadeInRight {
-    transform: translate3d(20px,0,0);
-}
-.js .fadeInLeft {
-    transform: translate3d(-20px,0,0);
-}
-
-.js .anime {
-    opacity: 1;
-    transform: none;
-    transition: transform .8s, opacity .8s;
 }
