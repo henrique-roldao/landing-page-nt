@@ -1,7 +1,7 @@
 if(window.SimpleSlide) {
     new SimpleSlide({
         slide: "detalhes-imovel",
-        time: 5000,
+        time: 3000,
         nav: true
     });
 
