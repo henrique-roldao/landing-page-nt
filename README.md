@@ -26,7 +26,7 @@
 </p>
 
 <h4 align="center">
-	🚧 Construção 🚧
+	:heavy_check_mark: Concluído :heavy_check_mark:
 </h4>
 
 Tabela de conteúdos
